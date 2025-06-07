@@ -25,35 +25,19 @@ jobs:
       - name: Install dependencies
         shell: bash
         run: |
-          brew install cmake ninja
+          brew install cmake
+          brew install ninja
       
-      - name: Build Toolchain with compiler-rt
+      - name: Build
         shell: bash
         run: |
           mkdir build
           cd build
-          cmake -G Ninja \
-            -DCMAKE_BUILD_TYPE=Release \
-            -DCMAKE_OSX_ARCHITECTURES=arm64 \
-            -DCMAKE_OSX_DEPLOYMENT_TARGET=12.0 \
-            -DLLVM_ENABLE_PROJECTS="clang;compiler-rt" \
-            -DLLVM_TARGETS_TO_BUILD="X86;ARM;AArch64" \
-            -DLLVM_ENABLE_ZSTD=OFF \
-            -DLLVM_CREATE_XCODE_TOOLCHAIN=ON \
-            -DLLVM_INCLUDE_TESTS=OFF \
-            -DLLVM_INCLUDE_EXAMPLES=OFF \
-            -DLLVM_INCLUDE_UTILS=OFF \
-            -DLLVM_INCLUDE_BENCHMARKS=OFF \
-            -DLLVM_BUILD_TOOLS=OFF \
-            -DLLVM_INSTALL_TOOLCHAIN_ONLY=ON \
-            -DCMAKE_INSTALL_PREFIX="./install" \
-            ../llvm
-          
+          cmake -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_OSX_ARCHITECTURES=arm64 -DLLVM_ENABLE_PROJECTS=clang  -DLLVM_TARGETS_TO_BUILD="X86;ARM;AArch64" -DLLVM_ENABLE_ZSTD=OFF -DCMAKE_OSX_DEPLOYMENT_TARGET=12.0 -DLLVM_CREATE_XCODE_TOOLCHAIN=ON  -DLLVM_INCLUDE_TESTS=OFF -DLLVM_INCLUDE_EXAMPLES=OFF -DLLVM_INCLUDE_UTILS=OFF -DLLVM_INCLUDE_BENCHMARKS=OFF -DLLVM_BUILD_TOOLS=OFF -DLLVM_INSTALL_TOOLCHAIN_ONLY=ON -DCMAKE_INSTALL_PREFIX="./install" ../llvm
           ninja
           ninja install-xcode-toolchain
-
           tar -czvf Hikari_LLVM19.0.0git_Apple-Silicon-Mac.tar.gz ./install/Toolchains/Hikari_LLVM19.0.0git.xctoolchain
-
+  
       - name: Upload Artifact
         uses: actions/upload-artifact@v4.3.3
         with:
