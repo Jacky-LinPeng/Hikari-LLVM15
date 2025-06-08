@@ -1,0 +1,108 @@
+{
+  "original_file": "Hikari_LLVM19.0.0git_Apple-Silicon-Mac.tar",
+  "original_size": 828605440,
+  "original_md5": "fa442aace92c4ff02c863cf88c323dc9",
+  "chunk_size": 41943040,
+  "chunks": [
+    {
+      "filename": "Hikari_LLVM19.0.0git_Apple-Silicon-Mac.part001",
+      "size": 41943040,
+      "md5": "75ffb633693eb47e8c16c71e5f489ed9"
+    },
+    {
+      "filename": "Hikari_LLVM19.0.0git_Apple-Silicon-Mac.part002",
+      "size": 41943040,
+      "md5": "91b92d010548f74a3d578562d8b125e3"
+    },
+    {
+      "filename": "Hikari_LLVM19.0.0git_Apple-Silicon-Mac.part003",
+      "size": 41943040,
+      "md5": "7a84a675ee41d0adc606ebf02c5e5067"
+    },
+    {
+      "filename": "Hikari_LLVM19.0.0git_Apple-Silicon-Mac.part004",
+      "size": 41943040,
+      "md5": "05104f77b29c2a3d867f1b22fc0f5390"
+    },
+    {
+      "filename": "Hikari_LLVM19.0.0git_Apple-Silicon-Mac.part005",
+      "size": 41943040,
+      "md5": "ba5245e213e69c6c7c8c76684964cc4a"
+    },
+    {
+      "filename": "Hikari_LLVM19.0.0git_Apple-Silicon-Mac.part006",
+      "size": 41943040,
+      "md5": "574746f59ee5ff154b57adcd3044a809"
+    },
+    {
+      "filename": "Hikari_LLVM19.0.0git_Apple-Silicon-Mac.part007",
+      "size": 41943040,
+      "md5": "6d948fc55b53d8e5c8034521c2152213"
+    },
+    {
+      "filename": "Hikari_LLVM19.0.0git_Apple-Silicon-Mac.part008",
+      "size": 41943040,
+      "md5": "748dc880345e94942b8f0317839c3e11"
+    },
+    {
+      "filename": "Hikari_LLVM19.0.0git_Apple-Silicon-Mac.part009",
+      "size": 41943040,
+      "md5": "36de91470c2e0f4578f72e0f2e6f55da"
+    },
+    {
+      "filename": "Hikari_LLVM19.0.0git_Apple-Silicon-Mac.part010",
+      "size": 41943040,
+      "md5": "70a0addce911e3cd5acccaa64ece4193"
+    },
+    {
+      "filename": "Hikari_LLVM19.0.0git_Apple-Silicon-Mac.part011",
+      "size": 41943040,
+      "md5": "7c50545e0c20f826f25abc3205fc6cca"
+    },
+    {
+      "filename": "Hikari_LLVM19.0.0git_Apple-Silicon-Mac.part012",
+      "size": 41943040,
+      "md5": "6c9a4831de3c9ecfae87c1e602c6c2b1"
+    },
+    {
+      "filename": "Hikari_LLVM19.0.0git_Apple-Silicon-Mac.part013",
+      "size": 41943040,
+      "md5": "c387b27c0d6b1c2c0f67ebce9afb1bf3"
+    },
+    {
+      "filename": "Hikari_LLVM19.0.0git_Apple-Silicon-Mac.part014",
+      "size": 41943040,
+      "md5": "160e5ccb7556d8f942a0fad32f46cedd"
+    },
+    {
+      "filename": "Hikari_LLVM19.0.0git_Apple-Silicon-Mac.part015",
+      "size": 41943040,
+      "md5": "30a5d02a9ae6d9e3295cda3229a8d82c"
+    },
+    {
+      "filename": "Hikari_LLVM19.0.0git_Apple-Silicon-Mac.part016",
+      "size": 41943040,
+      "md5": "78536064516f969d08e2d3f9c69014e2"
+    },
+    {
+      "filename": "Hikari_LLVM19.0.0git_Apple-Silicon-Mac.part017",
+      "size": 41943040,
+      "md5": "b6720cff973ee6b99692cfe3bcad6d09"
+    },
+    {
+      "filename": "Hikari_LLVM19.0.0git_Apple-Silicon-Mac.part018",
+      "size": 41943040,
+      "md5": "6bfed93540c0631f012c6af80e3e50c6"
+    },
+    {
+      "filename": "Hikari_LLVM19.0.0git_Apple-Silicon-Mac.part019",
+      "size": 41943040,
+      "md5": "64c41b4f049cd9992db006f0242fc74d"
+    },
+    {
+      "filename": "Hikari_LLVM19.0.0git_Apple-Silicon-Mac.part020",
+      "size": 31687680,
+      "md5": "929bbcf30aad4e4e43661958d25095e5"
+    }
+  ]
+}
